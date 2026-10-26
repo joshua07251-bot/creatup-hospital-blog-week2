@@ -1,0 +1,19 @@
+/* CREATUP tokens (from tokens.json). Light slide by default; .dark switches to Photo / dark slide. */
+:root, .light {
+  --red:#b20000; --crimson:#890a0f; --maroon:#5a0412; --black:#000000; --white:#ffffff;
+  --grey-100:#d8d8d8; --grey-300:#bebebe; --grey-500:#808080;
+  --surface:#ffffff; --surface-panel:#d8d8d8; --surface-inverse:#000000;
+  --ink:#000000; --ink-muted:#636363; --ink-faint:#afafaf; --ink-accent:#b20000;
+  --on-inverse:#ffffff; --on-accent:#ffffff; --border:#d8d8d8; --focus:#b20000;
+  --chart-1:#5a0412; --chart-2:#b20000; --chart-3:#bebebe;
+  --font-sans: Arial, "Helvetica Neue", Helvetica, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --space-1:8px; --space-2:16px; --space-3:24px; --space-4:32px; --space-6:48px; --space-8:64px; --space-12:96px;
+  --radius-none:0px; --radius-sm:8px; --radius-lg:32px; --radius-pill:9999px;
+  --stroke-frame:8px; --stroke-ring:6px; --stroke-hairline:2px;
+  --shadow-lift:0 8px 24px rgba(0,0,0,0.35);
+}
+.dark {
+  --surface:#2b2b2b; --surface-panel:#404040; --surface-inverse:#ffffff;
+  --ink:#ffffff; --ink-muted:#bebebe; --ink-faint:#808080; --ink-accent:#ffffff;
+  --on-inverse:#000000; --border:#595959; --focus:#ffffff;
+}
